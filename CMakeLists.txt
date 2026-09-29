@@ -19,7 +19,7 @@ find_package(mariadb-plugin REQUIRED)
 MARIADB_ADD_PLUGIN(levenshtein levenshtein.cc MODULE_ONLY
                  RECOMPILE_FOR_EMBEDDED
                  AUTHOR lefred
-                 VERSION 1.0
+                 VERSION 0.2.2
                  DESCRIPTION "Eight functions implementing levenstein distance"
                  )
 include(CPack)
