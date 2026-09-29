@@ -842,10 +842,10 @@ maria_declare_plugin(levenshtein)
   PLUGIN_LICENSE,
   nullptr,
   nullptr,
-  0x0002,
+  PLUGIN_HEX_VERSION,
   nullptr,
   nullptr,
-  "0.2.2",
+  PLUGIN_VERSION,
   MariaDB_PLUGIN_MATURITY_EXPERIMENTAL
 },
 {
@@ -857,10 +857,10 @@ maria_declare_plugin(levenshtein)
   PLUGIN_LICENSE,
   nullptr,
   nullptr,
-  0x0002,
+  PLUGIN_HEX_VERSION,
   nullptr,
   nullptr,
-  "0.2.2",
+  PLUGIN_VERSION,
   MariaDB_PLUGIN_MATURITY_EXPERIMENTAL
 },
 {
@@ -870,7 +870,7 @@ maria_declare_plugin(levenshtein)
   PLUGIN_AUTHOR,
   "Function LEVENSHTEIN_WITH_LIMIT()",
   PLUGIN_LICENSE,
-  nullptr, nullptr, 0x0002, nullptr, nullptr, "0.2.2",
+  nullptr, nullptr, PLUGIN_HEX_VERSION, nullptr, nullptr, PLUGIN_VERSION,
   MariaDB_PLUGIN_MATURITY_EXPERIMENTAL
 },
 {
@@ -880,7 +880,7 @@ maria_declare_plugin(levenshtein)
   PLUGIN_AUTHOR,
   "Function DAMERAU_LEVENSHTEIN()",
   PLUGIN_LICENSE,
-  nullptr, nullptr, 0x0002, nullptr, nullptr, "0.2.2",
+  nullptr, nullptr, PLUGIN_HEX_VERSION, nullptr, nullptr, PLUGIN_VERSION,
   MariaDB_PLUGIN_MATURITY_EXPERIMENTAL
 },
 {
@@ -890,7 +890,7 @@ maria_declare_plugin(levenshtein)
   PLUGIN_AUTHOR,
   "Function DAMERAU_LEVENSHTEIN_RATIO()",
   PLUGIN_LICENSE,
-  nullptr, nullptr, 0x0002, nullptr, nullptr, "0.2.2",
+  nullptr, nullptr, PLUGIN_HEX_VERSION, nullptr, nullptr, PLUGIN_VERSION,
   MariaDB_PLUGIN_MATURITY_EXPERIMENTAL
 },
 {
@@ -900,7 +900,7 @@ maria_declare_plugin(levenshtein)
   PLUGIN_AUTHOR,
   "Function LEVENSHTEIN_SIMILAR()",
   PLUGIN_LICENSE,
-  nullptr, nullptr, 0x0002, nullptr, nullptr, "0.2.2",
+  nullptr, nullptr, PLUGIN_HEX_VERSION, nullptr, nullptr, PLUGIN_VERSION,
   MariaDB_PLUGIN_MATURITY_EXPERIMENTAL
 },
 {
@@ -910,7 +910,7 @@ maria_declare_plugin(levenshtein)
   PLUGIN_AUTHOR,
   "Function LEVENSHTEIN_EDITOPS()",
   PLUGIN_LICENSE,
-  nullptr, nullptr, 0x0002, nullptr, nullptr, "0.2.2",
+  nullptr, nullptr, PLUGIN_HEX_VERSION, nullptr, nullptr, PLUGIN_VERSION,
   MariaDB_PLUGIN_MATURITY_EXPERIMENTAL
 },
 {
@@ -920,7 +920,7 @@ maria_declare_plugin(levenshtein)
   PLUGIN_AUTHOR,
   "Function LEVENSHTEIN_WEIGHTED()",
   PLUGIN_LICENSE,
-  nullptr, nullptr, 0x0002, nullptr, nullptr, "0.2.2",
+  nullptr, nullptr, PLUGIN_HEX_VERSION, nullptr, nullptr, PLUGIN_VERSION,
   MariaDB_PLUGIN_MATURITY_BETA
 }
 maria_declare_plugin_end;
